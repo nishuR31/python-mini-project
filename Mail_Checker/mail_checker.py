@@ -10,7 +10,7 @@ mail = imaplib.IMAP4_SSL('imap.gmail.com')
 mail.login(user, password)
 mail.list()
 
-mail.select("inbox")  # connects to your inbox, change the argument to access different categories.
+mail.select("inbox")  # connects to yorr inbox, change the argument to access different categories.
 
 
 def readMails(address):
